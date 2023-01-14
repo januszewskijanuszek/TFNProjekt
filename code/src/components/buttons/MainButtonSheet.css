@@ -1,0 +1,17 @@
+.button-image{
+    background: #e77312;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+svg{
+    color: white;
+}
+.button-image:hover{
+    box-shadow: 0px 0px 10px black;
+    transition-duration: 500ms;
+    color: white;
+    transform: scale(1.2);
+    cursor: pointer;
+}

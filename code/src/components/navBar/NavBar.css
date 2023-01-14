@@ -1,0 +1,52 @@
+#nav-bar #logo{
+    float: left;
+    font-size: 60px;
+    width: 450px;
+}
+#nav-bar #search-bar{
+    font-family: 'Saira', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: #2e2e2e;
+    width: 300px;
+    float: left;
+    margin-top: 12px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: white;
+    margin-left: 5px;
+}
+#nav-bar{
+    float: left;
+    padding: 10px;
+    position: absolute;
+    margin-left: 3em;
+    font-weight: bold;
+    background-color: #2e2e2e;
+    width: 90%;
+}
+#nav-bar #search-ico{
+    margin-top: 35px;
+    float: left;
+}
+#nav-bar #button-box{
+    float: left;
+    width: 550px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#nav-button:hover{
+    background-color: #414141;
+    transition-duration: 500ms;
+}
+#nav-button{
+    transition-duration: 500ms;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    float: left;
+    background-color: #e77312;
+    width: 150px;
+}

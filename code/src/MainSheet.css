@@ -1,0 +1,27 @@
+html {
+    background-color: #212121;
+    color: white;
+    font-family: 'Saira', sans-serif;
+}
+colorText{
+    color: #e77312;
+}
+::selection {
+    color: #212121;
+    background: #e77312;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: #212121;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e77312;
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fdd835;
+}

@@ -8,7 +8,7 @@ export default function NotFound(){
     return(
         <>
             <h1>Spore<colorText>More</colorText></h1>
-            <div id={"not-found-box"}>
+            <div className={"content"} id={"not-found-box"}>
                 Page <colorText>not found :(</colorText><br/>
                 Return to <colorText>home</colorText> page <br/>
                 <ButtonImage to={"../../../../../"}/>

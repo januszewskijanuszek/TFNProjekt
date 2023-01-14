@@ -25,3 +25,10 @@ colorText{
 ::-webkit-scrollbar-thumb:hover {
     background: #fdd835;
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.content {
+    animation: fadeIn 0.8s;
+}

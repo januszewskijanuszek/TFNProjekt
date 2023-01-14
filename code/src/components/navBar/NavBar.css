@@ -1,4 +1,6 @@
 #nav-bar #logo{
+    color: white;
+    margin-left: 40px;
     float: left;
     font-size: 60px;
     width: 450px;
@@ -21,11 +23,12 @@
 #nav-bar{
     float: left;
     padding: 10px;
-    position: absolute;
-    margin-left: 3em;
+    position: fixed;
     font-weight: bold;
     background-color: #2e2e2e;
-    width: 90%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 #nav-bar #search-ico{
     margin-top: 35px;

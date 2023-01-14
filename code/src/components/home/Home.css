@@ -1,0 +1,70 @@
+#home-page{
+    margin-top: 9em;
+}
+#home-page #home-page-question{
+    font-size: 45px;
+    margin-left: 220px;
+}
+#home-page #content{
+    margin-top: 30px;
+    display: grid;
+    column-gap: 3em;
+    row-gap: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90em;
+    grid-template-columns: 90em;
+}
+.shop-button{
+    height: 95%;
+    color: white;
+    padding: 10px;
+    background-color: #2e2e2e;
+    transition-duration: 500ms;
+}
+.shop-button:hover{
+    cursor: pointer;
+    background-color: #414141;
+    transition-duration: 500ms;
+}
+.shop-button #title{
+    width: 80%;
+    float: left;
+    margin-left: 10px;
+}
+.shop-button #title #text{
+    margin-left: 20px;
+    font-size: 36px;
+}
+.shop-button #title #amount{
+    float: right;
+}
+.shop-button #title #description{
+    margin-left: 30px;
+}
+.shop-button #image-box img{
+    float: left;
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+}
+.shop-button #control{
+    float: left;
+    width: 80%;
+    margin-left: 30px;
+}
+.shop-button #control #price{
+    float: left;
+    font-size: 36px;
+}
+.shop-button #control #cart-button{
+    float: right;
+    background-color: #e77312;
+    padding: 10px;
+    transition-duration: 500ms;
+}
+.shop-button #control #cart-button:hover{
+    transition-duration: 500ms;
+    background-color: #414141;
+    color: #e77312;
+}

@@ -1,6 +1,29 @@
 [
   {
     "id": 0,
-    "name": "Glock 19 Gen. 3"
+    "name": "Glock 19 Gen. 5",
+    "stock": 4,
+    "image": "https://coltwroclaw.pl/58089-large_default/bron-pistolet-glock-19-3-gen.jpg",
+    "description": "GLOCK 19 Gen5 jest najlepszym przykładem na to, że nieosiągalną dla konkurencji poprzeczkę można podnieść jeszcze wyżej.\n\nNajnowsza wersja pistoletu Glock zawiera ponad 20 modyfikacji konstrukcyjnych względem czwartej generacji.\n\nZmiany obejmują między innymi przeprojektowaną lufę dla jeszcze lepszej celności, niemal niezniszczalną powłokę nDLC, obustronne manipulatory (zrzut zamka), zmodyfikowany chwyt dla podniesienia ergonomii, poprawiony mechanizm spustowy. Zmiany te zapewniają niebywałą ergonomię, powtarzalność każdego strzału oraz co najważniejsze bezdyskusyjnie największą niezawodność w tej klasie pistoletów.",
+    "price": 1000,
+    "delivery": 20
+  },
+  {
+    "id": 1,
+    "name": "Smith & Wesson M&P15 Sport II",
+    "stock": 2,
+    "image": "https://besthunters.pl/media/products/3af0d5f05c345d60ac757f36afd6578f/images/thumbnail/big_SW-M-P15-Sport-II-10202-.jpg?lm=1659370039",
+    "description": "Karabinek sportowy, idealny do treningu podstawowego, nawiązujący do rozwiązań konstrukcyjnych broni autorstwa E. Stonera (M4/M16). W modelu M&P15 Sport II  zastosowany został układ gazowy z przewodem odprowadzającym gazy bezpośrednio na suwadło, jak w broni Stonera, oraz ręczny dopychacz suwadła.\n\nKarabinek jest wzorowany na wczesnych wersjach karabinków M4 i wyposażony jest w charakterystyczne, okrągłe łoże przednie wykonane z polimerów i składające się z dwóch symetrycznych połówek. Także wysuwana, 6-pozycyjna kolba jest kopią kolby zastosowanej w pierwowzorze.\n\nBroń wyposażona jest w mechaniczne przyrządy celownicze – składany przeziernik Magpul Folding MBUS, montowany na szynie uniwersalnej, oraz stałą, regulowaną muszkę umieszczoną na charakterystycznej, trójkątnej podstawie.\n\nNa grzbiecie komory zamkowej wykonano szynę zgodną ze standardem Picatinny (MIL-STD-1913), na której można montować optyczne i elektrooptyczne przyrządy celownicze.\n\n16-calowa lufa karabinka wykonana jest ze stali chromowo-molibdenowej 4140CM. Suwadło, zamek oraz klucz gazowy są chromowane w celu zwiększenia ich wytrzymałości.\n\nDo karabinka pasują standardowe akcesoria broni rodziny M4 i jej klonów, takie jak kolby czy chwyty, co daje użytkownikowi pełną dowolność w ich wyborze i modyfikacji Model M&P15 Sport II.\n\nW ukompletowaniu karabinka znajduje się jeden magazynek Magpul P-MAG.",
+    "price": 5500,
+    "delivery": 30
+  },
+  {
+    "id": 2,
+    "name": "CZ 75",
+    "stock": 2,
+    "image": "https://wojskowe.eu/12400-large_default/pistolet-wiatrowka-cz-75-p-01-shadow-45-mm.jpg",
+    "description": "CZ 75 B w stosunku do wesji 75 B wesja posiada ulepszony spust oraz zmodyfikowaną szczerbinkę.",
+    "price": 3699,
+    "delivery": 20
   }
 ]

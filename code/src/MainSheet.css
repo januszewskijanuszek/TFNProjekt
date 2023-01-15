@@ -30,5 +30,6 @@ colorText{
     100% { opacity: 1; }
 }
 .content {
+    margin-top: 9em;
     animation: fadeIn 0.8s;
 }

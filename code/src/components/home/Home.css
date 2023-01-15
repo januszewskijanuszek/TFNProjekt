@@ -1,12 +1,9 @@
-#home-page{
-    margin-top: 9em;
-}
 #home-page #home-page-question{
     font-size: 45px;
     margin-left: 220px;
 }
 #home-page #content{
-    margin-top: 30px;
+    margin-top: 100px;
     display: grid;
     column-gap: 3em;
     row-gap: 3em;
@@ -14,6 +11,30 @@
     margin-right: auto;
     width: 90em;
     grid-template-columns: 90em;
+}
+#home-page #home-page-question #title-text{
+    float: left;
+}
+#search-ico{
+    color: #e77312;
+    margin-left: 550px;
+    margin-top: 10px;
+    float: left;
+}
+#search-bar{
+    font-family: 'Saira', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    width: 300px;
+    float: left;
+    margin-top: 5px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #e77312;
+    margin-left: 5px;
 }
 .shop-button{
     height: 95%;
@@ -64,7 +85,6 @@
     transition-duration: 500ms;
 }
 .shop-button #control #cart-button:hover{
+    box-shadow: 0px 0px 1em #e77312;
     transition-duration: 500ms;
-    background-color: #414141;
-    color: #e77312;
 }

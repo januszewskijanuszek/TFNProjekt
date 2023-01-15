@@ -3,22 +3,7 @@
     margin-left: 40px;
     float: left;
     font-size: 60px;
-    width: 450px;
-}
-#nav-bar #search-bar{
-    font-family: 'Saira', sans-serif;
-    font-size: 30px;
-    color: white;
-    background-color: #2e2e2e;
     width: 300px;
-    float: left;
-    margin-top: 12px;
-    outline: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom-color: white;
-    margin-left: 5px;
 }
 #nav-bar{
     float: left;
@@ -29,10 +14,6 @@
     width: 100%;
     top: 0;
     left: 0;
-}
-#nav-bar #search-ico{
-    margin-top: 35px;
-    float: left;
 }
 #nav-bar #button-box{
     float: left;

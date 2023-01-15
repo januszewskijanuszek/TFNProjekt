@@ -1,16 +1,18 @@
 [
   {
     "id": 0,
+    "type": "short",
     "name": "Glock 19 Gen. 5",
     "stock": 4,
     "image": "https://coltwroclaw.pl/58089-large_default/bron-pistolet-glock-19-3-gen.jpg",
     "description": "GLOCK 19 Gen5 jest najlepszym przykładem na to, że nieosiągalną dla konkurencji poprzeczkę można podnieść jeszcze wyżej.\n\nNajnowsza wersja pistoletu Glock zawiera ponad 20 modyfikacji konstrukcyjnych względem czwartej generacji.\n\nZmiany obejmują między innymi przeprojektowaną lufę dla jeszcze lepszej celności, niemal niezniszczalną powłokę nDLC, obustronne manipulatory (zrzut zamka), zmodyfikowany chwyt dla podniesienia ergonomii, poprawiony mechanizm spustowy. Zmiany te zapewniają niebywałą ergonomię, powtarzalność każdego strzału oraz co najważniejsze bezdyskusyjnie największą niezawodność w tej klasie pistoletów.",
-    "price": 1000,
+    "price": 1999,
     "delivery": 20
   },
   {
     "id": 1,
-    "name": "Smith & Wesson M&P15 Sport II",
+    "type": "short",
+    "name": "Smith & Wesson M&P15 AR 15",
     "stock": 2,
     "image": "https://besthunters.pl/media/products/3af0d5f05c345d60ac757f36afd6578f/images/thumbnail/big_SW-M-P15-Sport-II-10202-.jpg?lm=1659370039",
     "description": "Karabinek sportowy, idealny do treningu podstawowego, nawiązujący do rozwiązań konstrukcyjnych broni autorstwa E. Stonera (M4/M16). W modelu M&P15 Sport II  zastosowany został układ gazowy z przewodem odprowadzającym gazy bezpośrednio na suwadło, jak w broni Stonera, oraz ręczny dopychacz suwadła.\n\nKarabinek jest wzorowany na wczesnych wersjach karabinków M4 i wyposażony jest w charakterystyczne, okrągłe łoże przednie wykonane z polimerów i składające się z dwóch symetrycznych połówek. Także wysuwana, 6-pozycyjna kolba jest kopią kolby zastosowanej w pierwowzorze.\n\nBroń wyposażona jest w mechaniczne przyrządy celownicze – składany przeziernik Magpul Folding MBUS, montowany na szynie uniwersalnej, oraz stałą, regulowaną muszkę umieszczoną na charakterystycznej, trójkątnej podstawie.\n\nNa grzbiecie komory zamkowej wykonano szynę zgodną ze standardem Picatinny (MIL-STD-1913), na której można montować optyczne i elektrooptyczne przyrządy celownicze.\n\n16-calowa lufa karabinka wykonana jest ze stali chromowo-molibdenowej 4140CM. Suwadło, zamek oraz klucz gazowy są chromowane w celu zwiększenia ich wytrzymałości.\n\nDo karabinka pasują standardowe akcesoria broni rodziny M4 i jej klonów, takie jak kolby czy chwyty, co daje użytkownikowi pełną dowolność w ich wyborze i modyfikacji Model M&P15 Sport II.\n\nW ukompletowaniu karabinka znajduje się jeden magazynek Magpul P-MAG.",
@@ -19,11 +21,52 @@
   },
   {
     "id": 2,
+    "type": "short",
     "name": "CZ 75",
-    "stock": 2,
+    "stock": 0,
     "image": "https://wojskowe.eu/12400-large_default/pistolet-wiatrowka-cz-75-p-01-shadow-45-mm.jpg",
     "description": "CZ 75 B w stosunku do wesji 75 B wesja posiada ulepszony spust oraz zmodyfikowaną szczerbinkę.",
     "price": 3699,
     "delivery": 20
+  },
+  {
+    "id": 3,
+    "type": "long",
+    "name": "FN FAL",
+    "stock": 1,
+    "image": "https://gunsmasters.pl/img/4412/product.jpg",
+    "description": "FN FAL (skrót od fr. Fabrique Nationale fusil automatique léger) – belgijski karabin automatyczny (samoczynno-samopowtarzalny) zaprojektowany i produkowany w belgijskiej firmie Fabrique Nationale d'Armes de Guerre w Herstal.",
+    "price": 10900,
+    "delivery": 40
+  },
+  {
+    "id": 4,
+    "type": "long",
+    "name": "KBK AKMS no.60",
+    "stock": 45,
+    "image": "https://4.allegroimg.com/original/0320fd/35e986734f20a4e873702289b894/KARABIN-KALASZNIKOW-AKMS-KALACH-Replika-1-1-DENIX-Waga-produktu-z-opakowaniem-jednostkowym-2-8-kg",
+    "description": "Cisza, cisza i wkońcu są. Magazynowe, kolecjonerskie KBK AKMS polskiej radomskiej produkcji jak tylko najjaśniejszy stworzył. Jest to oryginalna wojskowa produkcja. Dostępne w wersji samoczynnej, samopowtarzalnej lub jeśli ktoś bardzo chce można zrobić na „repetiery”. Jest w czym grzebać i wybierać pełne skrzynie i kasty. Naprawdę spoooro do wyboru każdy znajdzie swojego wymarzonego kałaszka, jeden piękniejszy od drugiego…\n\nDostępne roczniki 1984-1994. Po odbiór można się umawiać pod koniec przyszłego tygodnia. Potrzebne jedynie bilety Narodowego Banku Polskiego, zaświadczenie uprawniające do nabycia broni i dowód osobisty rzecz jasna…",
+    "price": 4500,
+    "delivery": 40
+  },
+  {
+    "id": 5,
+    "type": "ammo",
+    "name": "9x19 FMJ x 100",
+    "stock": 100,
+    "image": "https://www.specshop.pl/eng_pl_Sellier-Bellot-Pistol-Ammunition-9x19-Para-FMJ-124-gr-BOX-50-pcs-18879_1.jpg",
+    "description": "Caliber: 9x19 Luger\nBullet type: FMJ (Full Metal Jacket)\nBullet weight: 8.0 / 124 gr\nBullet speed: 260 m/s\nBullet energy: 504 J\nProducer: Sellier & Bellot, Czech Republic\nCartridges per box: 50 rounds",
+    "price": 200,
+    "delivery": 10
+  },
+  {
+    "id": 6,
+    "type": "ammo",
+    "name": "9x19 Green Tracer x 100",
+    "stock": 50,
+    "image": "https://www.specshop.pl/eng_pl_Sellier-Bellot-Pistol-Ammunition-9x19-Para-FMJ-124-gr-BOX-50-pcs-18879_1.jpg",
+    "description": "Caliber: 9x19 Luger Green Tracer",
+    "price": 250,
+    "delivery": 10
   }
 ]

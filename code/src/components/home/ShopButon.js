@@ -41,11 +41,17 @@ export default function ShopButton({product}){
                     <div id={"delivery"}>
                         +{product.delivery}zł Delivery
                     </div>
-                    <div id={"cart-button"}>
-                        <IoBagAddSharp size={20}/>
-                    </div>
+                    {product.stock > 0 ? <Cart/> : ""}
                 </div>
             </div>
         </Link>
+    )
+}
+
+function Cart(){
+    return(
+        <div id={"cart-button"}>
+            Add to cart <IoBagAddSharp size={20}/>
+        </div>
     )
 }

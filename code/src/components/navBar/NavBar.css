@@ -17,13 +17,15 @@
 }
 #nav-bar #button-box{
     float: left;
-    width: 550px;
+    width: 750px;
     margin-top: 20px;
     margin-left: 100px;
 }
 #nav-button:hover{
-    background-color: #414141;
+    background-color: #e77312;
     transition-duration: 500ms;
+    box-shadow: 0px 0px 10px #e77312;
+    /*margin-top: 10px;*/
 }
 #nav-button{
     transition-duration: 500ms;
@@ -31,6 +33,11 @@
     text-align: center;
     color: white;
     float: left;
-    background-color: #e77312;
+    background-color: transparent;
     width: 150px;
+}
+#nav-bar #login-area{
+    margin-top: 20px;
+    float: right;
+    width: 500px;
 }

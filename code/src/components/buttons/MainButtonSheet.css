@@ -1,5 +1,5 @@
 .button-image{
-    background: #e77312;
+    background: transparent;
     width: 60px;
     height: 60px;
     cursor: pointer;
@@ -9,7 +9,9 @@ svg{
     color: white;
 }
 .button-image:hover{
-    background-color: #414141;
+    box-shadow: 0px 0px 10px #e77312;
+    background-color: #e77312;
     transition-duration: 500ms;
+    color: white;
     cursor: pointer;
 }

@@ -1,0 +1,59 @@
+#login-box{
+    background-color: #2e2e2e;
+    width: 22em;
+    height: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login-box .button-image{
+    text-align: center;
+    font-size: 50px;
+    float: right;
+}
+#login-box #title{
+    float: left;
+    width: 240px;
+    text-align: right;
+    font-size: 45px;
+}
+#login-box #form-box{
+    font-size: 25px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    display: grid;
+    column-gap: 3em;
+    row-gap: 3em;
+    grid-template-columns: 320px;
+}
+#form-box input{
+    font-family: 'Saira', sans-serif;
+    color: #e77312;
+    font-size: 30px;
+    background-color: transparent;
+    width: 300px;
+    float: left;
+    margin-top: 5px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #e77312;
+    margin-left: 5px;
+}
+#form-box #login-button{
+    margin-left: auto;
+    margin-right: auto;
+}
+#form-box ::placeholder {
+    color: #e77312;
+    opacity: 1; /* Firefox */
+}
+
+#form-box :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #e77312;
+}
+
+#form-box ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #e77312;
+}

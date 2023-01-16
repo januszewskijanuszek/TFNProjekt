@@ -68,5 +68,75 @@
     "description": "Caliber: 9x19 Luger Green Tracer",
     "price": 250,
     "delivery": 10
+  },
+  {
+    "id": 7,
+    "type": "long",
+    "name": "M4A1",
+    "image": "https://garand.com.pl/media/products/f83b71f8f680a0d5103e72ec6155dccd/images/thumbnail/large_DSC-1019.JPG?lm=1640090899",
+    "description": "The M4A1 is a fully automatic variant of the M4 carbine with a shorter barrel, allowing for improved mobility. It is widely used by the US military and other special operations units.",
+    "price": 4500,
+    "stock": 50,
+    "delivery": 50
+  },
+  {
+    "id": 8,
+    "name": "KBK AK",
+    "type": "long",
+    "image": "https://www.taniemilitaria.pl/cache/gprodukt/3664334115.jpg",
+    "description": "The AK-47 is a gas-operated, 7.62x39mm assault rifle, developed in the Soviet Union by Mikhail Kalashnikov. It is known for its reliability and simplicity.",
+    "price": 1600,
+    "stock": 30,
+    "delivery": 40
+  },
+  {
+    "id": 9,
+    "name": "Glock 17",
+    "type": "short",
+    "image": "https://luska.pl/uploads/Glock17-Gen5-MOS-MT-02.jpg?1663795410323",
+    "description": "The Glock 17 is a 9mm semi-automatic pistol, developed by Glock GmbH of Austria. It is widely used by law enforcement and military organizations around the world.",
+    "price": 2499,
+    "stock": 40,
+    "delivery": 30
+  },
+  {
+    "id": 10,
+    "name": "FN SCAR",
+    "type": "long",
+    "image": "https://azteko.pl/images/1/vfc-fn-scar-h-cqc-tan-1.jpg",
+    "description": "The FN SCAR is a modular, battle-proven assault rifle, developed by Fabrique Nationale d'Herstal of Belgium. It is used by special operations forces around the world.",
+    "price": 9999,
+    "stock": 20,
+    "delivery": 70
+  },
+  {
+    "id": 11,
+    "name": "Remington 870",
+    "type": "long",
+    "image": "https://www.astroclassic.pl/wp-content/uploads/2020/10/Strzelba-powtarzalna-REMINGTON-870-Express-kal.-1276.jpg",
+    "description": "The Remington 870 is a pump-action shotgun, developed by Remington Arms. It is one of the most popular and widely-used shotguns in the world.",
+    "price": 4999,
+    "stock": 0,
+    "delivery": 35
+  },
+  {
+    "id": 12,
+    "name": "Beretta M9",
+    "type": "short",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/M9-pistolet.jpg",
+    "description": "The Beretta M9 is a 9mm semi-automatic pistol, developed by Beretta of Italy. It is the standard sidearm of the United States Armed Forces.",
+    "price": 1600,
+    "stock": 40,
+    "delivery": 30
+  },
+  {
+    "id": 13,
+    "name": "Sig Sauer P226",
+    "type": "short",
+    "image": "https://a.allegroimg.com/original/11e778/c2d4b09548f8b20c9c5cf1dca051/Wiatrowka-Pistolet-Sig-Sauer-P226-Metal-Slide-6mm",
+    "description": "The Sig Sauer P226 is a 9mm semi-automatic pistol, developed by Sig Sauer of Switzerland. It is widely used by law enforcement and military organizations around the world.",
+    "price": 1600,
+    "stock": 13,
+    "delivery": 30
   }
 ]

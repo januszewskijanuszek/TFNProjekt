@@ -33,3 +33,14 @@ colorText{
     margin-top: 9em;
     animation: fadeIn 0.8s;
 }
+.content-no{
+    animation: fadeIn 0.8s;
+}
+a{
+    transition-duration: 500ms;
+    color: #e77312;
+}
+a:hover{
+    transition-duration: 500ms;
+    color: white;
+}

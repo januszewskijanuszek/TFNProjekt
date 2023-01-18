@@ -41,3 +41,26 @@
     float: right;
     width: 500px;
 }
+#login{
+
+}
+#login #greetings{
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#login #login-button{
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    width: 60px;
+    background-color: transparent;
+    transition-duration: 500ms;
+}
+#login #login-button:hover{
+    background-color: #e77312;
+    transition-duration: 500ms;
+    box-shadow: 0px 0px 10px #e77312;
+}

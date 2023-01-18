@@ -25,7 +25,6 @@ export default function NavBar(){
             <div id={"button-box"}>
                 <NavBarButton to={"../../../"} text={"Home"}/>
                 <NavBarButton text={"Promos"}/>
-                <NavBarButton text={"Long Range"}/>
                 <NavBarButton text={"Cart"}/>
             </div>
             <div id={"login-area"}>

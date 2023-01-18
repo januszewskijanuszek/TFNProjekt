@@ -3,6 +3,7 @@ import "./Home.css"
 import ShopButton from "./ShopButon";
 import products from "./../../jsons/products.json"
 import {BiSearchAlt} from "react-icons/bi";
+import ListElements from "./ListElements";
 
 export default function Home(){
     const [inputText, setInputText] = useState("");
@@ -24,23 +25,8 @@ export default function Home(){
                 </div>
             </div>
             <div id={"content"}>
-                <ListElements props={inputText}/>
+                <ListElements search={inputText}/>
             </div>
         </div>
-    )
-}
-function ListElements({props}){
-    const filteredData = products.filter((els) => {
-        if(props === ''){
-            return els;
-        } else{
-            return els.name.toLowerCase().includes(props);
-        }
-    })
-    console.log(props)
-    return(
-        filteredData.map((product, i) =>(
-            <ShopButton product={product}/>
-        ))
     )
 }

@@ -9,6 +9,7 @@ import NavBar from "./components/navBar/NavBar";
 import ProductDetails from "./components/product/ProductDetails";
 import {CardContext, UserContext} from "./UserState";
 import Login from "./components/login/Login";
+import Cart from "./components/cart/Cart";
 
 function App() {
     const [user, setUser] = useState(null);
@@ -21,6 +22,7 @@ function App() {
                       <Route path={"/"} element={<NavBar/>}>
                           <Route path={"/"} element={<Home/>}/>
                           <Route path={"product"} element={<ProductDetails/>}/>
+                          <Route path={"cart"} element={<Cart/>}/>
                       </Route>
                       <Route path={"login"} element={<Login/>}/>
                       <Route path={"*"} element={<NotFound/>}/>

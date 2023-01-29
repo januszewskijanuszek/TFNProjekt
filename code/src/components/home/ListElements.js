@@ -10,7 +10,6 @@ export default function ListElements({search}){
             return els.name.toLowerCase().includes(search);
         }
     })
-    console.log(search)
     return(
         filteredData.map((product, i) =>(
             <ShopButton product={product}/>

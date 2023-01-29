@@ -10,7 +10,6 @@ import {LoggedIn} from "./LoggedInNav";
 
 export default function NavBar(){
     const [session, setSession] = useContext(UserContext)
-    console.log(session)
     let loggedIn;
     if(session === null) loggedIn = <NotLoggedIn/>;
     else loggedIn = <LoggedIn/>
@@ -25,7 +24,7 @@ export default function NavBar(){
             <div id={"button-box"}>
                 <NavBarButton to={"../../../"} text={"Home"}/>
                 <NavBarButton text={"Promos"}/>
-                <NavBarButton text={"Cart"}/>
+                <NavBarButton to={"cart"} text={"Cart"}/>
             </div>
             <div id={"login-area"}>
                 {loggedIn}

@@ -1,12 +1,36 @@
-import React, {useState} from "react";
+import React, {useContext, useState} from "react";
 import "./ProductDetails.css"
 import getURLAttributes from "../buttons/getUrlAtributes";
 import products from "./../../jsons/products.json"
 import {FiPlus, FiMinus} from "react-icons/fi";
+import {BsCartCheckFill} from "react-icons/bs";
+import {CardContext, UserContext} from "../../UserState";
 
 export default function ProductDetails(){
     const product = products[getURLAttributes()];
+    const [user, setUser] = useContext(UserContext);
+    const [cart, setCart] = useContext(CardContext);
     let [cartAmount, setCartAmount] = useState(1);
+    const getItemsToCard = () =>{
+        console.log("-------------------");
+        if(cart === null){
+            setCart([[product.id, cartAmount]]);
+        } else {
+            let temp = cart.valueOf();
+            if(cart.filter(element => element[0] == product.id).length == 0){
+                temp.push([product.id, cartAmount]);
+            } else {
+                for(let i = 0 ; i < cart.length ; i++){
+                    if(temp[i][0] == product.id){
+                        temp[i][1] = cartAmount;
+                    }
+                }
+            }
+            setCart(temp);
+            console.log(cart);
+        }
+    }
+    const showCartButton = user === null? <></> : <Button image={<BsCartCheckFill size={37} onClick={getItemsToCard}/>}/>
     const peaceWatcher = () =>{
         if(cartAmount > product.stock){
             setCartAmount(f => f = product.stock);
@@ -61,7 +85,7 @@ export default function ProductDetails(){
                     <div id={"desc-buy"}>
                         <Button image={<FiPlus
                             onClick={increaseCard}
-                            size={57}/>}/>
+                            size={37}/>}/>
                         <div id={"counter"}>
                             <input
                                 type={"number"}
@@ -72,7 +96,8 @@ export default function ProductDetails(){
                         </div>
                         <Button image={<FiMinus
                             onClick={decteseCard}
-                            size={57}/>}/>
+                            size={37}/>}/>
+                        {showCartButton}
                     </div>
                 </>
             )
@@ -106,7 +131,7 @@ export default function ProductDetails(){
         </div>
     )
 }
-function Button({image}){
+export function Button({image}){
     return(
         <div className={"product-button"}>
             {image}

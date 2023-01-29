@@ -1,18 +1,19 @@
 import React, {useContext} from "react";
-import {UserContext} from "../../UserState";
+import {CardContext, UserContext} from "../../UserState";
 import {TiShoppingCart} from "react-icons/ti";
 
 export function LoggedIn(){
     const [user, setUser] = useContext(UserContext);
+    const [cart, setCart] = useContext(CardContext);
     const logOutHandler = () => {
         setUser(null);
+        setCart(null);
     }
     return(
         <div id={"login"}>
             <div id={"greetings"}>
                 Hello <colorText>{user.login}</colorText>
             </div>
-            <LoginButton propt={<TiShoppingCart size={30}/>}/>
             <LoginButton propt={"LogOut"} onClick={logOutHandler}/>
         </div>
     )

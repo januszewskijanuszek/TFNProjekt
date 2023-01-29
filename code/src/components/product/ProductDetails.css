@@ -58,6 +58,7 @@
     margin-right: 5px;
     transition-duration: 500ms;
     margin-left: 5px;
+    padding: 10px;
 }
 #desc-buy svg:hover{
     cursor: pointer;
